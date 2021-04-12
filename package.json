@@ -1,0 +1,21 @@
+{
+  "name": "budget-tracker",
+  "version": "1.0.0",
+  "description": "This is an application that allows users to track their expenses and deposits with or without an internet connection.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geneskit/budget-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geneskit/budget-tracker/issues"
+  },
+  "homepage": "https://github.com/geneskit/budget-tracker#readme"
+}
