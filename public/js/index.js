@@ -14,7 +14,7 @@ fetch("/api/transaction")
     populateChart();
   });
 
-function populateTotal() {
+  function populateTotal() {
   // reduce transaction amounts to a single total value
   let total = transactions.reduce((total, t) => {
     return total + parseInt(t.value);
@@ -146,8 +146,10 @@ function sendTransaction(isAdding) {
 
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
+  alert("Your transaction has been completed.");
 };
 
 document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
+  alert("Your transaction has been completed.");
 };
