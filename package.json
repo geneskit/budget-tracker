@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/geneskit/budget-tracker/issues"
   },
-  "homepage": "https://github.com/geneskit/budget-tracker#readme"
+  "homepage": "https://github.com/geneskit/budget-tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "node": "^15.12.0"
+  }
 }
